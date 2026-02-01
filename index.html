@@ -11,7 +11,7 @@
 
         :root {
             /* Palette */
-            --bg-color: #f5f0eb;
+            --bg-color: #a1a1a1;
             --text-color: #3d2817;
             --cake-base: #6b4423;
             /* Chocolate Sponge */
@@ -100,6 +100,7 @@
             text-transform: uppercase;
             letter-spacing: 2px;
             margin-bottom: 15px;
+            font-weight: bold;
         }
 
         p.message {
@@ -541,7 +542,7 @@
 
         function startBalloonLoop() {
             spawnBalloonBatch();
-            setInterval(spawnBalloonBatch, 1000);
+            setInterval(spawnBalloonBatch, 3000);
         }
 
         async function startCelebration() {
